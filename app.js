@@ -67,7 +67,7 @@ console.log ("Nama Kasir Baru Ditambahkan:" + NAMA_KASIR);
 alert("Selamat Datang Di Website Kedai Kopi PSTI!");
 let NAMA_PELANGGAN = prompt("HALLO! Ayo Masukan Nama Kamu Untuk Order");
     if (NAMA_KEDAI) {
-alert("Halo!, " + NAMA_PELANGGAN + " yuk kita mulai order");
+alert("Halo! " + NAMA_PELANGGAN + " yuk kita mulai order");
 console.log("Pelanggan:  "+ NAMA_PELANGGAN);
     } else{ 
     alert("Jika Kamu Tidak Memasukan Nama, Kamu akan Disebut ");
@@ -201,7 +201,7 @@ let MENU_REKOMENDASI = [
 // TODO 6B:
 // Gunakan perulangan "for loop" untuk mencetak setiap menu ke Console dengan format:
 // "1. Nama Menu", "2. Nama Menu", dst. Gunakan (i + 1) untuk nomor urutnya.
-console.log ("Menu Rekomendasi :" + MENU_REKOMENDASI);
+
 //initu perintahnya sama kaya yang no 6C ya kang?
 
 
