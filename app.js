@@ -65,7 +65,7 @@ console.log ("Nama Kasir Baru Ditambahkan:" + NAMA_KASIR);
 //    - JIKA namaPelanggan ada isinya: tampilkan alert sapaan dan log ke console.
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 alert("Selamat Datang Di Website Kedai Kopi PSTI!");
-let NAMA_PELANGGAN = prompt("HALLO!, Ayo Masukan Nama Kamu Untuk Order");
+let NAMA_PELANGGAN = prompt("HALLO! Ayo Masukan Nama Kamu Untuk Order");
     if (NAMA_KEDAI) {
 alert("Halo!, " + NAMA_PELANGGAN + " yuk kita mulai order");
 console.log("Pelanggan:  "+ NAMA_PELANGGAN);
@@ -121,7 +121,7 @@ TIER_MEMBER = "Platinum" ;
    TIER_MEMBER = "Gold" ; 
     BENEFIT = "Diskon 10% Setiap Pembelian";
 }else if (JUMLAH_NILAI >=40 ){
-   TIER_MEMBER = "Silver"; ":\n"
+   TIER_MEMBER = "Silver"; 
     BENEFIT = "Diskon 5% Setiap Beli Makanan";
 } else {
     TIER_MEMBER = "Bronze";
@@ -130,8 +130,9 @@ TIER_MEMBER = "Platinum" ;
 console.log ("Tier Member: " + TIER_MEMBER);
 console.log ("Benefit Yang Kamu Punya:" + BENEFIT);
 alert (
-    "Jumlah Poin Kamu: " + JUMLAH_NILAI + ";\n" + 
-    "Tier Member:" + TIER_MEMBER + ";\n" + 
+    "Hasil Member: " + NAMA_PELANGGAN + "\n" + 
+    "Jumlah Poin Kamu: " + JUMLAH_NILAI + "\n" + 
+    "Tier Member:" + TIER_MEMBER + "\n" + 
     "Benefit: " + BENEFIT
 
 );
