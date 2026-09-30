@@ -66,12 +66,12 @@ console.log ("Nama Kasir Baru Ditambahkan:" + NAMA_KASIR);
 //    - JIKA namaPelanggan kosong / klik Cancel: beri nilai default "Pelanggan Setia" dan tampilkan alert pemberitahuan.
 alert("Selamat Datang Di Website Kedai Kopi PSTI!");
 let NAMA_PELANGGAN = prompt("HALLO! Ayo Masukan Nama Kamu Untuk Order");
-    if (NAMA_KEDAI) {
+    if (NAMA_PELANGGAN) {
 alert("Halo! " + NAMA_PELANGGAN + " yuk kita mulai order");
 console.log("Pelanggan:  "+ NAMA_PELANGGAN);
-    } else{ 
-    alert("Jika Kamu Tidak Memasukan Nama, Kamu akan Disebut ");
+    } else { 
     NAMA_PELANGGAN = "Pelanggan Setia";
+    alert ("Jika Kamu Tidak Memasukan Nama, Kamu akan Disebut Pelanggan Setia" );
     console.log("Pelanggan Setia : "  + NAMA_PELANGGAN);
     }
 
